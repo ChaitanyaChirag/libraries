@@ -1,0 +1,68 @@
+
+  
+  .Login {
+    padding: 30px ;
+    width: 30%;
+    margin-top: 3;
+    margin-left: 53rem ;
+    
+  }
+  .image{
+    background-image: url(./img.png);
+    background-repeat: no-repeat;
+    background-position:5rem ;
+    background-size: 45rem 25rem;
+  }
+p{
+  color: gray;
+  margin-left: 55rem;
+  margin-top: 3rem;
+}
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .login{
+    margin-top: 5rem;
+    margin-left: 65rem;
+  }
+
+.button{
+  background-color: cornflowerblue;
+  color: white;
+  margin: 2rem;
+  width: 60%;
+  height: 3rem;
+  text-align: center;
+  margin-left: 5.5rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: lightblue;
+}
+.email{
+  display: flex;
+  font-size: 2rem;
+  
+  margin: 0.5rem;
+  justify-content: center;
+}
+.password{
+  display: flex;
+  font-size: 2rem;
+  
+  margin: 0.5rem;
+  justify-content: center;
+}
+input{
+  height: 2rem;
+  width: 100%;
+  margin: 0.5rem;
+  border-radius: 10px;
+  
+}
+.welcome{
+  margin-top: 5rem;
+  margin-left: 61rem;
+}

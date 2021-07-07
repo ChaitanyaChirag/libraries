@@ -1,0 +1,139 @@
+body{
+    background-color: whitesmoke;
+}
+.container{
+    
+  width: 10%;
+    height: 5rem;
+    margin-left: 0;
+}
+.downa{
+    color: white;
+    text-align: center;
+    margin-top: 42rem;
+    border-bottom: 2px solid white;
+}
+.down{
+    color:black;
+    text-align: center;
+
+    
+}
+.img{
+    background-image: url(img2.png);
+    background-repeat: no-repeat;
+    background-position:1rem;
+    background-size: 10rem 12rem;
+}
+.sidenav{
+    margin-top: 1rem;
+    background-color: cornflowerblue;
+    width: 200%;
+    height: 48rem;
+
+}
+.but{
+    
+    width: 100%;
+    border:1px solid white;
+    background-color: cornflowerblue;
+    color: white;
+    height: 3rem;
+    
+}
+.but:hover{
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.nav-link{
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white
+}
+.active{
+    margin-left: 10rem;
+}
+.navbar{
+   
+    border-radius: 5px;
+  width: 100%;
+
+    border-bottom: 2px solid grey;
+    
+}
+
+.menu{
+    
+        width: 3rem;
+        height: 0.5rem;
+        background-color:black;
+        margin: 6px 0;
+      }
+
+.active{
+  margin-left:35rem;
+    padding-right: 9rem;
+    font-size: large;
+    box-shadow: whitesmoke;
+    font-weight: bold;
+}
+.nav-wel{
+    background-color:cornflowerblue;
+    color: white;
+    padding: 0.5rem;
+    width: 5.5em;
+
+    border-radius: 10px;
+}
+
+.container1 {
+  background: white;
+  margin-left: 15rem;
+  padding: 20px;
+  height: 70px;
+}
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+  float: right;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+.hamburger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background:cornflowerblue;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+.hamburger span:nth-child(1) {
+  top: 0px;
+}
+.hamburger span:nth-child(2) {
+  top: 12px;
+}
+.hamburger span:nth-child(3) {
+  top: 24px;
+}
+.hamburger.open span:nth-child(1) {
+  top: 14px;
+  transform: rotate(135deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+.hamburger.open span:nth-child(3) {
+  top: 14px;
+  transform: rotate(-135deg);
+}
